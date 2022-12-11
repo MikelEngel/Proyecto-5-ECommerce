@@ -2,7 +2,6 @@
   "name": "backend",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
@@ -11,7 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "express": "^4.18.2",
-    "nodemon": "^2.0.20"
-  }
+    "nodemon": "^2.0.20",
+    "react-bootstrap": "^2.7.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }
