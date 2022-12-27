@@ -14,11 +14,12 @@ function Product(props) {
         <Link to={`/product/${product.slug}`}>
           <Card.Title>{product.name}</Card.Title>
         </Link>
-        <Rating rating={product.rating} numViews={product.numViews} />
-        <Card.Text>{product.price}</Card.Text>
-        <Button>Agregar a carrito</Button>
+        <Rating rating={product.rating} numReviews={product.numReviews} />
+        <Card.Title>{product.price}</Card.Title>
+        <Button>Agregar al carrito</Button>
       </Card.Body>
     </Card>
   );
 }
+
 export default Product;
