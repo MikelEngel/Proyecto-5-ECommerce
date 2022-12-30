@@ -6,7 +6,10 @@ const data = {
       category: 'LONAS',
       image: '/images/lona.jpg', //679 x 829
       price: 120,
+      countInStock: 10,
       brand: 'Aoking',
+      rating: 4.5,
+      numReviews: 10,
       description: 'Lona de leno uso pesado',
     },
     {
@@ -15,7 +18,10 @@ const data = {
       category: 'RUEDAS',
       image: '/images/rueda.jpg',
       price: 120,
+      countInStock: 20,
       brand: 'HOD',
+      rating: 4.5,
+      numReviews: 10,
       description: 'Rueda tipo rayo 12x3',
     },
     {
@@ -24,7 +30,10 @@ const data = {
       category: 'RODAJAS',
       image: '/images/rodaja.jpg',
       price: 120,
+      countInStock: 10,
       brand: 'HOD',
+      rating: 4.0,
+      numReviews: 10,
       description: 'Rodaja fija uso pesado',
     },
     {
@@ -33,7 +42,10 @@ const data = {
       category: 'ESTANTERÍA',
       image: '/images/estante.jpg',
       price: 120,
+      countInStock: 10,
       brand: 'HOD',
+      rating: 4.5,
+      numReviews: 10,
       description: 'Estantería de alambre multiusos',
     },
   ],
