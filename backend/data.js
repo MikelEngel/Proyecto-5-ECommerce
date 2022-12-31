@@ -33,7 +33,7 @@ const data = {
       category: 'RODAJAS',
       image: '/images/rodaja.jpg',
       price: 200,
-      countInStock: 26,
+      countInStock: 0,
       brand: 'HOD',
       rating: 4.0,
       numReviews: 20,
