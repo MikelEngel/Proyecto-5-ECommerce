@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'LONA DE LENO',
       slug: 'lona-de-leno',
       category: 'LONAS',
@@ -13,6 +14,7 @@ const data = {
       description: 'Lona de leno uso pesado',
     },
     {
+      _id: '2',
       name: 'RUEDA PARA DIABLO',
       slug: 'rueda-para-diablo',
       category: 'RUEDAS',
@@ -25,6 +27,7 @@ const data = {
       description: 'Rueda tipo rayo 12x3',
     },
     {
+      _id: '3',
       name: 'RODAJA FIJA',
       slug: 'rodaja-fija',
       category: 'RODAJAS',
@@ -37,6 +40,7 @@ const data = {
       description: 'Rodaja fija uso pesado',
     },
     {
+      _id: '4',
       name: 'ESTANTERÍA DE ALAMBRE',
       slug: 'estanteria-de-alambre',
       category: 'ESTANTERÍA',
