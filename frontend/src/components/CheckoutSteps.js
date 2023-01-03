@@ -6,9 +6,9 @@ export default function CheckoutSteps(props) {
   return (
     <Row className="checkout-steps">
       <Col className={props.step1 ? 'active' : ''}>Registro</Col>
-      <Col className={props.step2 ? 'active' : ''}>Compra</Col>
+      <Col className={props.step2 ? 'active' : ''}>Dirección de envío</Col>
       <Col className={props.step3 ? 'active' : ''}>Pago</Col>
-      <Col className={props.step4 ? 'active' : ''}>Realizar pedido</Col>
+      <Col className={props.step4 ? 'active' : ''}>Finalizar pedido</Col>
     </Row>
   );
 }
