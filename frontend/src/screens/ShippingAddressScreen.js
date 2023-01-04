@@ -47,21 +47,20 @@ export default function ShippingAddressScreen() {
         country,
       })
     );
-    navigate('payment');
+    navigate('/payment');
   };
   return (
     <div>
       <Helmet>
-        <title>Dirección de Envío</title>
+        <title>Dirección de envío</title>
       </Helmet>
 
       <CheckoutSteps step1 step2></CheckoutSteps>
-
       <div className="container small-container">
-        <h1 className="my-3">Dirección de Envío</h1>
+        <h1 className="my-3">Dirección de envío</h1>
         <Form onSubmit={submitHandler}>
           <Form.Group className="mb-3" controlId="fullName">
-            <Form.Label>Nombre Completo</Form.Label>
+            <Form.Label>Nombre completo</Form.Label>
             <Form.Control
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
@@ -76,7 +75,7 @@ export default function ShippingAddressScreen() {
               required
             />
           </Form.Group>
-          <Form.Group className="mb-3" controlId="address">
+          <Form.Group className="mb-3" controlId="city">
             <Form.Label>Ciudad</Form.Label>
             <Form.Control
               value={city}
@@ -84,15 +83,15 @@ export default function ShippingAddressScreen() {
               required
             />
           </Form.Group>
-          <Form.Group className="mb-3" controlId="address">
-            <Form.Label>Código Postal</Form.Label>
+          <Form.Group className="mb-3" controlId="postalCode">
+            <Form.Label>Código postal</Form.Label>
             <Form.Control
               value={postalCode}
               onChange={(e) => setPostalCode(e.target.value)}
               required
             />
           </Form.Group>
-          <Form.Group className="mb-3" controlId="address">
+          <Form.Group className="mb-3" controlId="country">
             <Form.Label>País</Form.Label>
             <Form.Control
               value={country}
